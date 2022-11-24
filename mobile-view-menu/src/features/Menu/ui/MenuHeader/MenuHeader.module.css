@@ -1,0 +1,54 @@
+.header {
+  background: lightgray;
+  position: absolute;
+  top: 0;
+  right: 0;
+  left: 0;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 16px;
+}
+
+.bgBtn {
+  background: none;
+  border: none;
+  font-size: 18px;
+  font-weight: 400;
+  line-height: 1.2;
+  color: rgb(59, 59, 59);
+  border: none;
+  outline: none;
+  background: transparent;
+  cursor: pointer;
+  transition: .3s;
+  border-radius: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 4px;
+}
+
+.closeBtn {
+  border: none;
+  outline: none;
+  background: transparent;
+  cursor: pointer;
+  transition: .3s;
+  border-radius: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 4px;
+}
+
+.closeBtn:hover {
+  transform: scale(1.2);
+  background: rgb(241, 240, 240);
+}
+
+.close {
+  width: 20px;
+  height: 20px;
+  font-weight: 500;
+}
